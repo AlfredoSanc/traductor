@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  traductor:
+    build: .
+    ports:
+        - ${JUPYTER_PORT}:8888
+    dns:
+        - 8.8.8.8
+    volumes:
+      - ./notebooks:/notebooks
+      - ./data:/data
+      - ./scripts:/scripts

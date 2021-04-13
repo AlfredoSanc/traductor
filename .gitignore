@@ -1,0 +1,11 @@
+*.local
+*.ipython
+*.ipynb_checkpoints
+*.ipynb
+data/train*
+data/test*
+data/dev*
+.env
+data/*
+notebooks/joeynmt*
+notebooks/models*
